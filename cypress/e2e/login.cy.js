@@ -40,4 +40,5 @@ describe('Login', () => {
         cy.get('[data-test="login-button"]').click()
         cy.get('[data-test="error"]').should('contain', 'Epic sadface: Password is required')
     })
+    
 })
